@@ -1,19 +1,12 @@
 public class Fibonacci {
 
-    public static double op1;
-    public static double x = 0;
-    public static double y = 1;
-    public static double z = 1;
-    public static String r = "";
-    public static String resultat = "0";
-    private double calculate;
+    private static double x = 0;
+    private static double y = 1;
+    private static double z = 1;
+    private static String r = "";
+    private static String resultat = "0";
 
-    public Fibonacci(double op1){
-        this.op1 = op1;
-    }
-
-    public static String calculate() {
-
+    public static String calculate(double op1) {
         for (int i=0;i<op1;i++){
             r =     String.valueOf(z);
             //Nachkommastellen abschneiden
