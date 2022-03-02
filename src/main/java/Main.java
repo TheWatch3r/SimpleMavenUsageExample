@@ -11,9 +11,5 @@ public class Main {
     public static void main(String[] args) throws IOException, SQLException {
         log.debug("Hello this is a debug message");
         log.info(Fibonacci.calculate(number_of_values));
-
-        String[] a=Fibonacci.calculate(number_of_values).split(",");
-        String[] a1=Fibonacci.calculate(number_of_values).split(",");
-        String[] a2=Fibonacci.calculate(number_of_values).split(",");
     }
 }
