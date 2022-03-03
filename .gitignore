@@ -3,3 +3,5 @@
 logs/log4j-application.log
 /target/
 target/classes/Fibonacci.class
+target/classes/FibonacciTest.class
+target/classes/FibonacciTest.class
