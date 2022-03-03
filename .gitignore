@@ -1,3 +1,5 @@
 /target/classes/log4j.properties
 /target/classes/Main.class
 logs/log4j-application.log
+/target/
+target/classes/Fibonacci.class
