@@ -10,6 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException, SQLException {
         log.debug("Hello this is a debug message");
-        log.info(Fibonacci.calculate(number_of_values));
+        log.debug(Fibonacci.calculate(number_of_values));
+
     }
 }
