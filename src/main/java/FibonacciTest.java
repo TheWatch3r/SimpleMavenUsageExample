@@ -19,4 +19,10 @@ public class FibonacciTest {
 
         Assert.assertTrue(Fibonacci.calculate(10).split(",").length == 11);
     }
+
+    @Test
+    public void TestingFibonacciNumbers() {
+        String expectedNumbers = "0,1,1,2,3,5,8,13,21,34,55,89";
+        Assert.assertTrue(Fibonacci.calculate(11).equals(expectedNumbers));
+    }
 }
